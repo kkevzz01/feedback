@@ -1,0 +1,49 @@
+name: Bug Report 🪲
+description: File a report on any issue you're experiencing.
+title: "[When I interact with the ₿eyond bridge...]: "
+labels: ["bug"]
+assignees:
+  - BeyondTeamLead
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping us enhance the ₿eyond protocol for everyone!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details
+      description: How can we reach you for more details?
+      placeholder: e.g. beyonder@example.com, x.com/BtcBeyonder
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the issue and what you expected instead. Feel free to include screenshots.
+      placeholder: Describe the issue you encountered.
+      value: |
+        I was expecting X, but instead Y happened!
+
+        Steps to reproduce the behavior:
+        1. Navigate to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. Observe the error / unexpected behavior
+
+        I have attached a screenshot to illustrate the issue.
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: On which browser(s) did you encounter the issue?
+      multiple: true
+      options:
+        - Chrome
+        - Metamask
+        - Brave
+        - Safari
+        - Firefox
+        - Edge
+        - Other (please specify)

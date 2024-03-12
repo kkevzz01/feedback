@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discord
+    url: https://join.beyond.tech
+    about: Join the community for discussion and support.
+  - name: 𝕏 (Twitter)
+    url: https://x.com/beyond__tech
+    about: Follow the latest announcements and stay up to date.
+  - name: Telegram
+    url: https://t.me/beyond_labs
+    about: Connect with the team and community members.

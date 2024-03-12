@@ -1,0 +1,37 @@
+name: Feature Request 💡
+description: Propose a new feature or idea.
+title: "[Enhance the ₿eyond UI with...]: "
+labels: ["enhancement"]
+assignees:
+  - magnus-beyond
+body:
+  - type: markdown
+    attributes:
+      value: We appreciate your help in enriching the ₿eyond experience for everyone.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details
+      description: How can we reach you for further information?
+      placeholder: e.g. beyonder@example.com, x.com/BtcBeyonder
+    validations:
+      required: false
+  - type: textarea
+    id: problem-related
+    attributes:
+      label: Is your feature request related to a problem? Please explain.
+      description: Feel free to include screenshots.
+      placeholder: Share any specific problems you're facing or improvements you envision.
+    validations:
+      required: false
+  - type: textarea
+    id: feature-describe
+    attributes:
+      label: Describe the solution you'd like
+      description: Consider also describing any alternative solutions you've thought of.
+      placeholder: >
+        The user interface of ₿eyond plays a crucial role in user experience. I believe integrating more
+        interactive elements or enhancing visual feedback could significantly improve usability and engagement. An
+        example could be adding dynamic elements that visually represent transactions or bridges in real-time.
+    validations:
+      required: true
