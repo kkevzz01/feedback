@@ -2,8 +2,6 @@ name: Feature Request 💡
 description: Propose a new feature or idea.
 title: "[Enhance the ₿eyond UI with...]: "
 labels: ["enhancement"]
-assignees:
-  - magnus-beyond
 body:
   - type: markdown
     attributes:
