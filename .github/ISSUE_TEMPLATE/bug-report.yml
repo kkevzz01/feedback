@@ -2,8 +2,6 @@ name: Bug Report 🪲
 description: File a report on any issue you're experiencing.
 title: "[When I interact with the ₿eyond bridge...]: "
 labels: ["bug"]
-assignees:
-  - BeyondTeamLead
 body:
   - type: markdown
     attributes:
